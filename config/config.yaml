@@ -1,0 +1,7 @@
+env: "prod"
+static_files_path: "./static"
+http_server:
+  host: "0.0.0.0"
+  port: 8080
+  timeout: 10s
+  idle_timeout: 30s
